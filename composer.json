@@ -1,16 +1,20 @@
 {
     "name": "bearzlh/beartest",
-        "description": "test",
-        "authors": [
+    "description": "test",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "authors": [
         {
             "name": "郑立浩",
             "email": "zhenglh@dianzhong.com"
         }
     ],
-        "require": {},
-        "autoload":{
-            "psr-4":{
-                "Bear\\":"src/"
-            }
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "Bear\\":"src/"
         }
+    }
 }
