@@ -1,0 +1,16 @@
+{
+    "name": "bearzlh/beartest",
+        "description": "test",
+        "authors": [
+        {
+            "name": "郑立浩",
+            "email": "zhenglh@dianzhong.com"
+        }
+    ],
+        "require": {},
+        "autoload":{
+            "psr-4":{
+                "Bear\\":"src/"
+            }
+        }
+}
